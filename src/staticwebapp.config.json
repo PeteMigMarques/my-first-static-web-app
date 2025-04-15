@@ -13,5 +13,12 @@
     "404": {
       "rewrite": "/custom-404.html"
     }
-  }
+  },
+  "routes": [
+    {
+      "route": "/secret.html",
+      "statusCode": 403,
+      "rewrite": "/noaccess.html"
+    }
+  ]
 }
