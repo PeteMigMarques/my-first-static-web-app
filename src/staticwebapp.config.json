@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/secret.html",      
-      "statusCode": 403.
+      "statusCode": 403,
 	   "rewrite": "/noaccess.html"
     }
   ],
