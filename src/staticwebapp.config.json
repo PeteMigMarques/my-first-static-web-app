@@ -19,5 +19,10 @@
       "route": "/secret.html",      
       "statusCode": 403
     }
-  ]  
+  ],
+ "networking": {
+    "allowedIpRanges": [
+      "94.140.14.14/32"
+    ]
+  }  
 }
