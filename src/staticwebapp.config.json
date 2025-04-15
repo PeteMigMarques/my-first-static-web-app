@@ -19,5 +19,10 @@
       "route": "/secret.html",      
       "rewrite": "/noaccess.html"
     }
-  ]
+  ],
+   "networking": {
+    "allowedIpRanges": [
+      "1.1.1.1"
+    ]
+  }
 }
