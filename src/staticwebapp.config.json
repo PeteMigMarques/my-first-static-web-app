@@ -8,7 +8,7 @@
       "redirect": "/login"
     },
     "403": {
-      "rewrite": "/custom-forbidden-page.html"
+      "rewrite": "/noaccess.html"
     },
     "404": {
       "rewrite": "/custom-404.html"
