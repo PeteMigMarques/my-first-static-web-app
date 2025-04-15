@@ -1,5 +1,4 @@
-{
-  
+{  
   "routes": [
     {
       "route": "/secret.html",      
@@ -15,7 +14,7 @@
       "redirect": "/login"
     },
     "403": {
-      "redirect": "/noaccess.html"
+      "rewrite": "/noaccess.html"
     },
     "404": {
       "rewrite": "/custom-404.html"
