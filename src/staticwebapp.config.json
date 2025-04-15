@@ -13,11 +13,5 @@
     "404": {
       "rewrite": "/custom-404.html"
     }
-  },
-  "routes": [
-    {
-      "route": "/",
-      "statusCode": 403
-    }
-  ]
+  }
 }
