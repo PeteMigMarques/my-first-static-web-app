@@ -1,0 +1,12 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [
+    {
+      "route": "/noaccess.html",
+      "statusCode": 403,
+      "rewrite": "/noaccess.html"
+    }
+  ]
+}
