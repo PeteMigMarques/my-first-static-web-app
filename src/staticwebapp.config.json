@@ -3,6 +3,7 @@
     {
       "route": "/secret.html",      
       "statusCode": 403
+	   "rewrite": "/noaccess.html"
     }
   ],
   "responseOverrides": {
