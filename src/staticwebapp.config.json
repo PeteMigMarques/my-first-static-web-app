@@ -13,9 +13,7 @@
       "statusCode": 302,
       "redirect": "/login"
     },
-    "403": {
-      "rewrite": "/noaccess.html"
-    },
+    
     "404": {
       "rewrite": "/custom-404.html"
     }
