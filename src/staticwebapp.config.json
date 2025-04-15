@@ -17,12 +17,7 @@
   "routes": [
     {
       "route": "/secret.html",      
-      "rewrite": "/noaccess.html"
+      "statusCode": "/noaccess.html"
     }
-  ],
-   "networking": {
-    "allowedIpRanges": [
-      "94.140.14.14/32"
-    ]
-  }
+  ]  
 }
