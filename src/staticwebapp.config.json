@@ -1,9 +1,8 @@
-{  
+{
   "routes": [
     {
-      "route": "/secret.html",      
-      "statusCode": 403,
-	   "rewrite": "/noaccess.html"
+      "route": "/secret.html",
+      "statusCode": 403
     }
   ],
   "responseOverrides": {
