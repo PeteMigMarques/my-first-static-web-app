@@ -18,6 +18,11 @@
     },
     "404": {
       "rewrite": "/custom-404.html"
-    }
+    },
+ "networking": {
+    "allowedIpRanges": [
+      "94.140.14.14/32"
+    ]
+  }  
   }
 }
