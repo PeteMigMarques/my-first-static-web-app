@@ -19,10 +19,5 @@
     "404": {
       "rewrite": "/custom-404.html"
     }
-  },
-  "networking": {
-    "allowedIpRanges": [
-      "0.0.0.0/32"
-    ]
   }
 }
