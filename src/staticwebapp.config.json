@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/secret.html",
-      "statusCode": 404
+      "statusCode": 403
     }
   ],
   "responseOverrides": {
@@ -17,7 +17,12 @@
       "rewrite": "/noaccess.html"
     },
     "404": {
-      "rewrite": "/custom-404.html"
+      "redirect": "/custom-404.html"
     }
-  }
+  },
+ "networking": {
+    "allowedIpRanges": [
+      "94.140.14.14/32"
+    ]
+  }  
 }
