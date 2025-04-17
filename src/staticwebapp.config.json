@@ -1,4 +1,10 @@
 {
+  "routes": [
+    {
+      "route": "/secret.html",
+      "statusCode": 403
+    }
+  ],
   "responseOverrides": {
     "400": {
       "rewrite": "/invalid-invitation-error.html"
@@ -13,5 +19,10 @@
     "404": {
       "rewrite": "/custom-404.html"
     }
+  },
+  "networking": {
+    "allowedIpRanges": [
+      "0.0.0.0/32"
+    ]
   }
 }
