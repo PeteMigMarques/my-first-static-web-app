@@ -24,13 +24,13 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_CALM_ISLAND_0637C4603 }}
-          repo_token: 452a968c799286c5568fa067e8f07f13bf699d42df2315584cc4a9dc6ea7e1e006-361bd805-5b88-4800-8ece-6b8ab8afd7c900317000637c4603 # Used for Github integrations (i.e. PR comments)
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/" # App source code path
+          app_location: "./src" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "" # Built app content directory - optional
+          output_location: "./src" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
