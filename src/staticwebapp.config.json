@@ -1,5 +1,4 @@
-{
-  
+{  
   "responseOverrides": {
     "400": {
       "rewrite": "/invalid-invitation-error.html"
