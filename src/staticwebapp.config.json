@@ -1,10 +1,5 @@
 {
-  "routes": [
-    {
-      "route": "/secret.html",
-      "statusCode": 403
-    }
-  ],
+  
   "responseOverrides": {
     "400": {
       "rewrite": "/invalid-invitation-error.html"
