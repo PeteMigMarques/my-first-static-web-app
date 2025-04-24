@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/",
-      "allowedRoles": ["authenticated", "administrator"],
+      "allowedRoles": ["authenticated"],
       "serve": "/noaccess.html",
       "statusCode": 403
     }
