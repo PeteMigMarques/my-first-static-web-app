@@ -1,18 +1,17 @@
 {
-  "clientPrincipal": {
-    "identityProvider": "github",
-    "userId": "test-user-id",
-    "userDetails": "test@example.com",
-    "roles": ["authenticated"]
-  },
   "routes": [
     {
       "route": "/",
-      "allowedRoles": ["administrator"],
+      "allowedRoles": ["authenticated", "administrator"],
+      "serve": "/noaccess.html",
       "statusCode": 403
     }
   ],
   "responseOverrides": {
+    "401": {
+      "redirect": "/login",
+      "statusCode": 302
+    },
     "403": {
       "rewrite": "/noaccess.html"
     }
