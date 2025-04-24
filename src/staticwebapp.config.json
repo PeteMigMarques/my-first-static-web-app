@@ -1,5 +1,5 @@
 {
-   "clientPrincipal": {
+  "clientPrincipal": {
     "identityProvider": "github",
     "userId": "test-user-id",
     "userDetails": "test@example.com",
@@ -9,7 +9,8 @@
     {
       "route": "/",
       "allowedRoles": ["administrator"],
-      "statusCode": 403   
+      "statusCode": 403
+    }
   ],
   "responseOverrides": {
     "403": {
