@@ -1,9 +1,0 @@
-// auth-config.json
-{
-  "clientPrincipal": {
-    "identityProvider": "github",
-    "userId": "test-user-id",
-    "userDetails": "test@example.com",
-    "roles": ["authenticated"]
-  }
-}

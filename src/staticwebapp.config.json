@@ -1,14 +1,15 @@
 {
+   "clientPrincipal": {
+    "identityProvider": "github",
+    "userId": "test-user-id",
+    "userDetails": "test@example.com",
+    "roles": ["authenticated"]
+  },
   "routes": [
     {
       "route": "/",
       "allowedRoles": ["administrator"],
-      "statusCode": 403
-     
-    {
-      "route": "/",
-      "allowedRoles": ["authenticated"]
-    }
+      "statusCode": 403   
   ],
   "responseOverrides": {
     "403": {
