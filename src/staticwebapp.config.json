@@ -3,6 +3,7 @@
   "routes": [
     {
       "route": "/",
+	  "statusCode": 403,
       "allowedRoles": ["authenticated"]
     },
     {
@@ -68,7 +69,7 @@
       "statusCode": 302
     },
     "403": {
-      "rewrite": "/custom-forbidden-page.html"
+      "rewrite": "/noaccess.html"
     },
     "404": {
       "rewrite": "/404.html"
